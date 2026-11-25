@@ -2,7 +2,13 @@
 
 Accompanies *Current-path effects and residual compensation in PEM electrolyzer outlet-flow estimation*, academic manuscript V0.28. Creators: Xianhuan Wu, Suhua Li, Cenglin Yao, Lesheng Liu.
 
-**Status: author-authorized release, awaiting repository deposit.** MIT applies to eligible original software only. No upstream data license is granted. No NLR raw data, NLR fitted coefficients or NLR-derived result tables are bundled. The companion dataset contains 35 Jülich aggregate payloads. No DOI has been assigned.
+**Status: author-authorized release; archived on Zenodo on 2026-11-25.** MIT applies to eligible original software only. No upstream data license is granted. No NLR raw data, NLR fitted coefficients or NLR-derived result tables are bundled. The companion dataset contains 35 Jülich aggregate payloads.
+
+- Software V1.1.0 (MIT): [10.5281/zenodo.24531336](https://doi.org/10.5281/zenodo.24531336).
+- Companion Jülich Dataset V1.0.0 (CC BY 4.0 for eligible original contributions; upstream CC0 preserved): [10.5281/zenodo.24532302](https://doi.org/10.5281/zenodo.24532302).
+- Upstream Jülich dataset: [10.26165/JUELICH-DATA/FEKKSS](https://doi.org/10.26165/JUELICH-DATA/FEKKSS).
+
+The Zenodo Software ZIP remains the immutable reference archive (SHA256 `6f8942edb1091c005a2001bb7204f10126cec98906de61e51db9a602022a5918`). This repository incorporates post-deposit DOI metadata only; the computational files are unchanged from that archive.
 
 V1.1 provides six separate local calculation entry points in `src/reproduce.py`. It uses original numerical functions extracted from the historical code, adapted file readers and a new orchestration layer. The new pipeline has been tested on synthetic data and the supplied aggregate audit has been run on the Jülich candidate dataset. **The six new entry points have not been executed on the original research signals; complete equivalence to the published experiment is not certified.** The package does not rebuild every historical sensitivity analysis, waveform, figure or supplementary table. It is a research diagnostic, not a controller. Historical one-use execution tokens, project markers, raw data, setpoint files and production runners are excluded.
 
@@ -58,4 +64,4 @@ Compare NLR `DECOMPOSITION_METRICS.csv` against the two locally held Phase2D/2E 
 
 ## 3. Attribution and license
 
-See `acquisition/ACQUISITION.md`, `CODE_PROVENANCE.csv`, `NEW_CODE_PROVENANCE.csv`, `LICENSE`, `RELEASE_STATUS.txt` and `THIRD_PARTY_DEPENDENCIES.md`. AI assisted development and manuscript preparation; the authors reported completing their review and accepting responsibility. The MIT license is limited to eligible original software, not upstream files, dependency licenses or the separate dataset. Cite the four creators, title, version, and the real DOI once assigned. No real DOI or repository URL is asserted at the time of package preparation.
+See `acquisition/ACQUISITION.md`, `CODE_PROVENANCE.csv`, `NEW_CODE_PROVENANCE.csv`, `LICENSE`, `RELEASE_STATUS.txt` and `THIRD_PARTY_DEPENDENCIES.md`. AI assisted development and manuscript preparation; the authors reported completing their review and accepting responsibility. The MIT license is limited to eligible original software, not upstream files, dependency licenses or the separate dataset. Cite the four creators, title, version, and the version-specific software DOI 10.5281/zenodo.24531336. The companion dataset DOI is 10.5281/zenodo.24532302.
