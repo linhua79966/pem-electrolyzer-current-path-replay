@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software using the metadata below; add the actual DOI after publication."
+title: "Current-path effects and residual compensation in PEM electrolyzer outlet-flow estimation: double-platform reproduction methods and Jülich summary audit"
+version: 1.1.0
+authors:
+  - family-names: Wu
+    given-names: Xianhuan
+  - family-names: Li
+    given-names: Suhua
+  - family-names: Yao
+    given-names: Cenglin
+  - family-names: Liu
+    given-names: Lesheng

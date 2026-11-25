@@ -1,0 +1,18 @@
+file,origin,sha256,functions,adaptation
+src/nlr_fit.py,c19_phase2a.py,032c1776fd6d807ef0c6d200acc3824ac29ac0762bd7e3d7623a7f3717bd5cb3,support;state;dot;fit1;loss;fit2;metrics;pred;identify,pure functions only; runtime inputs explicit; no production entrypoint
+src/nlr_core.py,c19_phase2d.py,c087ef871fbebf589ce910c483986e2a807da7cb785ea0058db25f11ecf1aed6,valid_input;split_segments;Scores,pure functions only; runtime inputs explicit; no production entrypoint
+src/nlr_clock.py,c19_phase2e.py,738590d3a97f7c9aca102cf70c21265d5537a0fd1b022db3a316b08fc2f374ef,parse_clock,pure functions only; runtime inputs explicit; no production entrypoint
+src/juelich_fit.py,c19_phase3a.py,81035dce32ccaa4af16236475f08b25179c6fe627a668dc071231e441a1c3ee3,design;gram_fit;coeff;metric;candidates,pure functions only; runtime inputs explicit; no production entrypoint
+src/juelich_replay.py,c19_phase3b.py,762750b4e8ad87c8e3c833c29fb2f182ca626a1f557f5cd272abe680bd86e7b5,simulate;metric,pure functions only; runtime inputs explicit; no production entrypoint
+src/xlsx_headers.py,phase1b_helpers.py,8c1b16c6b36100cb942c20bafdb5d0f7e84fc40a05a6e0eedc1e63aeabc1796d,header_text;xlsx_headers,pure functions only; runtime inputs explicit; no production entrypoint
+src/xlsx_cells.py,c19_phase1c.py,7b670725d02e3bbf346462d326562c68f51f2457b9980c3b6c7be1ebb1fe5e9f,sheet_path;num;present,pure functions only; runtime inputs explicit; no production entrypoint
+src/juelich_reader.py,frozen_reader.py,61058b07a7166a76ec2030c1615833ade86ae073d7b466718e3ba5928bf4d7f7,clock_ok;edge_ok;extract,pure functions only; runtime inputs explicit; no production entrypoint
+src/timing_core.py,timing_core.py,9cd818c2ce71fc833120cdc6eadc79daa2b42591bb2a9582764350a38514a2fe,all numerical functions,docstring only
+src/timing_reports.py,engine.py,88fb9fbdb78250778547316919ea304f32f1593a62e4a38857bab86484d025c4,sufficient;evaluate,pure functions only; runtime inputs explicit; no production entrypoint
+src/reproduce.py,new orchestration and explicit I/O adapters,,six local workflows,"adapted original parsing, recurrence, report conventions; synthetic validation only"
+src/compare_reports.py,new,,comparison,exact key coverage and explicit tolerance
+src/plot_local_reports.py,new,,diagnostic plots,not historical figure replicas
+tests/test_pipeline.py,new,,synthetic fixtures,no research data
+src/juelich_identification.py,V1.0,095f1eb0b2156d3ad284f7301de2ae61163cac1bb4d315ebbec9ae06fda53a19,metric,add missing math import
+verify_candidate.py,new,,synthetic and aggregate verification,never dispatches raw stages
+src/plot_timing_grid_v015.py,V1.0 historical plotting logic,,tick labels,"derive row counts from supplied table, not hard-coded; archived figure test"

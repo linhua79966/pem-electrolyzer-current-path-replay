@@ -1,0 +1,20 @@
+﻿output,source,source_sha256,symbol,source_lines,modification
+nlr_identification.py,c19_phase2a.py,032c1776fd6d807ef0c6d200acc3824ac29ac0762bd7e3d7623a7f3717bd5cb3,state,78-84,Function-only extraction; no original runner; state default removed
+nlr_identification.py,c19_phase2a.py,032c1776fd6d807ef0c6d200acc3824ac29ac0762bd7e3d7623a7f3717bd5cb3,dot,86-86,Function-only extraction; no original runner
+nlr_identification.py,c19_phase2a.py,032c1776fd6d807ef0c6d200acc3824ac29ac0762bd7e3d7623a7f3717bd5cb3,fit1,87-90,Function-only extraction; no original runner
+nlr_identification.py,c19_phase2a.py,032c1776fd6d807ef0c6d200acc3824ac29ac0762bd7e3d7623a7f3717bd5cb3,loss,91-92,Function-only extraction; no original runner
+nlr_identification.py,c19_phase2a.py,032c1776fd6d807ef0c6d200acc3824ac29ac0762bd7e3d7623a7f3717bd5cb3,fit2,93-104,Function-only extraction; no original runner
+nlr_identification.py,c19_phase2a.py,032c1776fd6d807ef0c6d200acc3824ac29ac0762bd7e3d7623a7f3717bd5cb3,metrics,106-110,Function-only extraction; no original runner
+nlr_identification.py,c19_phase2a.py,032c1776fd6d807ef0c6d200acc3824ac29ac0762bd7e3d7623a7f3717bd5cb3,pred,111-111,Function-only extraction; no original runner
+juelich_identification.py,c19_phase3a.py,81035dce32ccaa4af16236475f08b25179c6fe627a668dc071231e441a1c3ee3,gram_fit,86-88,Function-only extraction; no original runner
+juelich_identification.py,c19_phase3a.py,81035dce32ccaa4af16236475f08b25179c6fe627a668dc071231e441a1c3ee3,coeff,89-100,Function-only extraction; no original runner
+juelich_identification.py,c19_phase3a.py,81035dce32ccaa4af16236475f08b25179c6fe627a668dc071231e441a1c3ee3,metric,102-103,Function-only extraction; no original runner
+lag.py,run_lag.py,afc0ee582833be46203fb6aba5ebef873fb1f763ee32cc70b06da459edf2d5b7,corr,17-21,Function-only extraction; no original runner
+lag.py,run_lag.py,afc0ee582833be46203fb6aba5ebef873fb1f763ee32cc70b06da459edf2d5b7,pairs,23-30,Function-only extraction; no original runner
+lag.py,run_lag.py,afc0ee582833be46203fb6aba5ebef873fb1f763ee32cc70b06da459edf2d5b7,peak,32-35,Function-only extraction; no original runner
+lag.py,run_lag.py,afc0ee582833be46203fb6aba5ebef873fb1f763ee32cc70b06da459edf2d5b7,selftests,58-71,Function-only extraction; no original runner
+plot_timing_grid_v015.py,plot_timing_grid_v015.py,1d27d09f195d5f31494f46c96abd8608bd2a2e4673c12366a47125e00f5b899a,entire module,all,Byte-identical; caller supplies summary input/output paths
+plot_evidence_v015.py,plot_evidence_v015.py,b435f4ce4e8902af5901f2fa23a54e75a5b34fa361efc5e2eff07053ea3bbeae,entire module,all,Byte-identical; caller supplies summary input/output paths
+response.py,C19_PHASE2E_V1_0/replay_core.py; C19_PHASE3A_V1_0/c19_phase3a.py,41acf5cde6857c74551992ad2724ae02f817d45a71ac875b5afd2d51ef4b5811;81035dce32ccaa4af16236475f08b25179c6fe627a668dc071231e441a1c3ee3,step/states/forecasts; design,82-102; 70-84,"New parameterized in-memory adapter; no actual parameters, I/O or frozen-run entrypoint; synthetic tests only"
+audit_juelich.py,V0.25 final report audit,5bb5dd5194a76d01d66658c84860372320eea460798b61d60eb64c86e480dd0d,Juelich timing and metrics checks,adapted; additional macro checks,"New subset-only entrypoint, no NLR or raw-data I/O"
+test_methods.py,New synthetic acceptance harness,,all,new,New tests on artificial arrays only

@@ -1,0 +1,2 @@
+# Third-party dependencies
+Only dependency requirements are distributed; no third-party wheel, font, or library source is bundled. Each package and its transitive dependencies retain its own license, see https://numpy.org/doc/stable/license.html , https://pandas.pydata.org/docs/getting_started/overview.html#license , https://matplotlib.org/stable/project/license.html . The proposed MIT license applies only to the original software in this candidate. Installation may require internet access to the package index. No dataset acquisition is performed by this software.
